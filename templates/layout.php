@@ -1,3 +1,10 @@
+<?php
+    require_once "database\connection.php";
+    $sql ="SELECT county from location_county";
+    $res = mysqli_query($con, $sql);
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
