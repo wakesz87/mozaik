@@ -1,5 +1,5 @@
 <?php
-    require_once "database\connection.php";
+    require_once "database\dbConfig.php";
     $sql ="SELECT county from location_county";
     $res = mysqli_query($con, $sql);
 ?>
